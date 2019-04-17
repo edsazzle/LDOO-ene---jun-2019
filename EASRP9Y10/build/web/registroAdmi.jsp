@@ -9,10 +9,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Administrador</title>
     </head>
     <body>
-        <h1>Inicia sesión</h1>
+        <h1>Registrate Admi</h1>
             <form action="" method="post">
                 <input type="text" name="user" placeholder="Nombre de usuario"/><br/>
                 <input type="text" name="correo" placeholder="Correo Electronico"/><br/>

@@ -1,6 +1,6 @@
 <%-- 
-    Document   : registroAdmi
-    Created on : 12/04/2019, 08:24:48 PM
+    Document   : registroInvitado
+    Created on : 13/04/2019, 06:34:52 PM
     Author     : TOÑO
 --%>
 
@@ -9,18 +9,17 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Administrador</title>
+        <title>Invitado</title>
     </head>
-    <body>
-        <h1>Registrate Admi</h1>
+        <body>
+        <h1>Registrate Invitado</h1>
             <form action="" method="post">
                 <input type="text" name="user" placeholder="Nombre de usuario"/><br/>
                 <input type="text" name="correo" placeholder="Correo Electronico"/><br/>
                 <input type="password" name="contra" placeholder="Contraseña"/><br/>
                 <input type="text" name="cumple" placeholder="Fecha de nacimiento"/><br/>
-                <input type="text" name="idUs" placeholder="Id Usuario"/><br/>
-                <input type="text" name="numEmp" placeholder="Número de empleado"/><br/>
-                <input type="text" name="tipo" placeholder="Tipo de usuario"/><br/>
+                <input type="text" name="nombre" placeholder="Nombre completo"/><br/>
+                <input type="text" name="fecha" placeholder="Fecha de registro"/><br/>
                 <input type="submit" value="Iniciar Sesión">
             </form>
     </body>
