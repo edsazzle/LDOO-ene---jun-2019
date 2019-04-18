@@ -42,5 +42,8 @@ public class UsersFactory {
         return new UserInvi(nombreusu, email, password, cumple, idusu, nombrecomp, fecharegistro);
     } 
     
+        public UserAbstract obtenerUsu (String nombreusu){
+            return userHashMap.get(nombreusu);
+        }
 }
 
